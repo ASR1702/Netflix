@@ -1,0 +1,172 @@
+:root{
+    --primary-color: #e50914;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) ,(min-width: 1200px) ,(min-width: 992px) ,(min-width: 600px){
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: #000;
+    color:white;
+}
+.showcase {
+    height: 80vh;
+    position: relative;
+    background: url(image/joker1.jpg)no-repeat;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;  
+}
+.showcase-top {
+    position: relative;
+    height: 90px;
+    align-items: center;
+}
+.showcase-top img {
+    position: absolute;  
+}
+.heading-flex {
+   
+    position: relative;
+    display: flex;
+    padding: 25px 230px; 
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.heading{
+    padding-top: 100px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.para{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+button{
+    font-size: 1.2rem;
+    border-radius:7px ;
+    border:none;
+    width:100px ;
+    height: 45px;
+}
+.btn{
+    padding-top: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.btn1{
+    text-decoration: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #e50914 ;
+    transition: ease;
+    color: #fff;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.film-flex img:hover{
+    transform:scaleY(1.05) scaleX(1.05);
+}
+.fightclub-flex{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    display: flex;
+    height: 600px;
+    
+}
+.text1{
+    padding-top: 50px;
+    margin-right: 20%;
+}
+.text1 h2{
+    font-size: 3rem;
+}
+.text1 p{
+    font-size: 1.5rem;
+    line-height-step: 4;
+}
+.fightimg{
+    padding-top: 25px;
+    border: none;
+    margin-right: 0%;
+}
+
+.userguide .call{
+    
+    color: rgba(124, 121, 121, 0.863);
+    margin-top: 75px;
+    margin-left:26%;
+    font-size: 1.1rem;
+}
+.userguide .no{
+    text-decoration: none;
+    color: rgb(110, 105, 105);
+}
+.no:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.grid-container {
+    margin-top: 15px;
+    margin-left: 26%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 180px;
+    width: 1000px;
+  }
+  .grid-item .a{
+    text-decoration: none;
+    color: rgba(153, 153, 153, 0.678);
+    font-family: Arial;
+    font-size: 13px;
+    text-align:left;
+    
+  }
+  .grid-item:hover{
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration: underline 1px solid #fff;
+  }
